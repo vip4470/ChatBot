@@ -3,7 +3,7 @@ import * as dotenv from 'dotenv';
 import cors from 'cors';
 import { Configuration, OpenAIApi } from 'openai';
 
-dotenv.config();
+dotenv.config({path: '/Secrets/APIKEY/.env'});
 
 
 const configuration = new Configuration({
