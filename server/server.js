@@ -46,4 +46,4 @@ app.post('/', async (req, res) => {
   }
 })
 
-app.listen(5000, () => console.log('AI server started on https://openai-r7l3.onrender.com/'));
+app.listen(5000, () => console.log('AI server started on https://chatbot-qkz4.onrender.com'));
